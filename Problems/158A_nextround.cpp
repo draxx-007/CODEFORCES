@@ -9,12 +9,12 @@ int main() {
         cin >> yash[i];
     }
     int ish=yash[k-1];
-    int count=0;
+    int x=0;
     for(int i=0; i<n; i++){
         if(yash[i]>= ish && yash[i]>0) {
-            count++;
+            x++;
         }
     }
-    cout << count << endl;
+    cout << x << endl;
     return 0;
 }
